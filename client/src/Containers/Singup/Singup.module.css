@@ -1,0 +1,65 @@
+.prof a,
+.part a {
+    display: block;
+    font-size: 14px;
+    height: auto;
+    line-height: 3rem;
+    text-decoration: none;
+    color: inherit;
+
+    transition: .5s;
+}
+
+.prof:hover,
+.part:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .15);
+    border-radius: 5px;
+    color: #30a7fd;
+    transition: .2s;
+}
+
+.profSubtext,
+.partSubtext {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    line-height: 3rem;
+    background-color: #ebeced;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .15);
+    font-size: 12px;
+    z-index: 10;
+    transition: 0;
+    color: black
+}
+
+.prof:hover .profSubtext {
+    width: 35vw;
+    top: 33vh;
+    height: auto;
+    opacity: 1;
+    transition: .6s;
+}
+
+.part:hover .partSubtext {
+    width: 35vw;
+    top: 33vh;
+    right: 40px;
+    height: auto;
+    opacity: 1;
+    transition: .6s;
+}
+
+.activeClass {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .15);
+    border-radius: 5px;
+    color: #30a7fd;
+    transition: .5s;
+}
+
+.activeStyle a {
+
+    color: #30a7fd;
+    transition: .5s;
+}
