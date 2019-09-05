@@ -15,7 +15,7 @@ app.use(express.json({ extended: false }))
 app.use('/api/user', require('./router/api/user'))
 app.use('/api/locations', require('./router/api/locations'))
 
-// open port 5000 in development and port env.PORT in heroku
+// open port 5000 in development and port env.PORT n heroku
 const PORT = process.env.PORT || 5000
 
 // render the index react app when we are on production
