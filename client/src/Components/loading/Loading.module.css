@@ -1,0 +1,49 @@
+.ldsripple {
+  margin-top: 120px;
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 300px;
+  margin: 20vh auto
+}
+
+.ldsripplePure {
+
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.ldsripplePure div,
+.ldsripple div {
+  position: absolute;
+  border: 5px solid #30a7fd;
+  opacity: .8;
+  border-radius: 50%;
+  animation: ldsripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.ldsripplePure div:nth-child(2),
+.ldsripple div:nth-child(2) {
+  animation-delay: -0.8s;
+}
+
+@keyframes ldsripple {
+  0% {
+    top: 50px;
+    left: 50px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  100% {
+    top: -1px;
+    left: -1px;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
+}
