@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
 
     },
     image: {
-        backgroundImage: 'url(https://boxecommerce.com/images/layout/register.png)',
+        backgroundImage: 'url(https://res.cloudinary.com/dayqylkck/image/upload/v1567711051/undraw_mobile_prototyping_grmd_vj6p3j.png)',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'contain',
         backgroundPosition: 'center',
