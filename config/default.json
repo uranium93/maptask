@@ -1,0 +1,4 @@
+{
+    "MongoDbUri": "mongodb+srv://hanafi93:Uranium93@cluster0-t1tkc.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "bissmi allah arrahmen arrahim"
+}
